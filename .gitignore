@@ -1,0 +1,45 @@
+# -------------------------
+# Python / uv / venv
+# -------------------------
+.venv/
+__pycache__/
+*.py[cod]
+.python-version
+
+# -------------------------
+# uv
+# -------------------------
+uv.lock
+
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb~
+
+# -------------------------
+# OS / Editor
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Logs & temp files
+# -------------------------
+*.log
+*.tmp
+
+# -------------------------
+# Data (IMPORTANT for RAG)
+# -------------------------
+data/
+pdf_files/
+text_files/
+
+# (keep folder structure if needed)
+!data/.gitkeep
+!pdf_files/.gitkeep
+!text_files/.gitkeep
